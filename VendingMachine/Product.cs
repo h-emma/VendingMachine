@@ -1,11 +1,12 @@
-﻿using System;
-namespace VendingMachine
+﻿class Product
 {
-	public class Product
-	{
-		public Product()
-		{
-		}
-	}
+    public string Name { get; }
+    public int Price { get; }
+
+    public Product(string name, int price)
+    {
+        Name = name;
+        Price = price;
+    }
 }
 
